@@ -13,8 +13,8 @@ function php_manual() {
     test -e "$vimDocFile" && tar -xf $vimDocFile -C $vimDocPath
 }
 
-! vim --version | grep 7.4 &> /dev/null \
-        && err_exit "没有安装vim或vim版本不是7.4"
+# ! vim --version | grep 7.4 &> /dev/null \
+        # && err_exit "没有安装vim或vim版本不是7.4"
 
 test -e ~/.vimrc -o -e ~/.vimrc.local -o -e ~/.vim -o -e ~/.vim.plugins \
     && tar -cf ~/kyo_old_vim_$(date +%m%d%H%M%S).tar ~/.vim* &> /dev/null
