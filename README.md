@@ -1,6 +1,6 @@
 # tmux
-将tmux.conf复制到家目录/.tmux.conf
-使用命令： cp tmux.conf ~/.tmux.conf
+    将tmux.conf复制到家目录/.tmux.conf
+    使用命令: cp tmux.conf ~/.tmux.conf
 
 
 # vim
